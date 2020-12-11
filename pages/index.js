@@ -16,7 +16,7 @@ function Contador () {
         setContador(contador + 1);
     }
     return (
-        <div>
+        <div class= "button">
             <div>{contador}</div>
             <button onClick={adicionarContador}>Adicionar</button>
         </div>
